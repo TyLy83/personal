@@ -5,7 +5,7 @@ import styles from "@/app/styles/page.module.scss";
 
 const Page = () => {
 
-    return (<div id="__blog-page">
+    return (<div id="__blog-page" className="overflow-hidden">
         <Nav />
         <div className={styles.header}>
             <div className="flex items-center">

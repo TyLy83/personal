@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
 
 	return (<div id="__page-home">
-		<div id="__home-logo" className="w-full h-[20px] fixed top-8 left-8">
+		<div id="__home-logo" className="w-full h-[20px] fixed top-0 left-0 p-[28px] bg-white">
 			<Image src="/assets/logo.png" alt="logo alt" width={20} height={20} />
 		</div>
 		<div className="w-full h-[calc(100vh-20px)] flex justify-center items-center overflow-y-auto">

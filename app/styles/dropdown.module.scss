@@ -1,0 +1,11 @@
+.dp {
+    @apply ring-1 rounded-md !absolute transition-all duration-300;
+}
+
+.default {
+    @apply dp opacity-0 -z-10; 
+}
+
+.shown {
+    @apply dp z-0 shadow-md ease-in shadow-black/10 ring-black/10 bg-white;
+}

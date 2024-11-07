@@ -1,0 +1,60 @@
+.__input {
+    @apply mt-6 ring-1 rounded-md cursor-text flex items-center bg-white text-current;
+}
+
+.__label {
+    @apply absolute z-0 uppercase transition-all ease-in-out py-3;
+}
+
+.input {
+    @apply __input ring-slate-300;
+}
+
+.focus {
+    @apply __input ring-black;
+}
+
+.input label {
+    @apply __label top-0 bottom-0 left-0 right-0 px-4 text-sm font-semibold text-current;
+}
+
+.focus label {
+    @apply __label -top-8 -left-2 text-[0.7rem] font-semibold p-2;
+}
+
+.input input {
+    @apply w-full focus:ring-0 focus:outline-none bg-transparent py-3 text-sm text-current;
+}
+
+.focus input {
+    @apply w-full focus:ring-0 focus:outline-none bg-transparent py-3 text-sm;
+}
+
+.startIcon {
+    @apply p-4 bg-slate-500 rounded-tl-md rounded-bl-md ring-1 ring-slate-500;
+}
+
+.startIcon svg {
+    @apply w-4 !h-4 !stroke-white;
+}
+
+.endIcon {
+    @apply p-4
+}
+
+.endIcon svg {
+    @apply w-4 h-4 stroke-current;
+}
+
+
+.focus .startIcon {
+    @apply p-4 bg-black rounded-tl-md rounded-bl-md ring-1 ring-black;
+}
+
+.focus .startIcon svg {
+    @apply w-4 !h-4 stroke-white stroke-2;
+} 
+
+.focus .endIcon svg {
+    @apply w-4 h-4 stroke-black stroke-2;
+}

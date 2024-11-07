@@ -18,8 +18,10 @@ const Page = () => {
             </div>
         </div>
         <div id="__projects" className={`${styles.content} flex justify-center items-center`}>
-            <Link href="/" className="px-4">custom modal</Link>
+            <Link href="/projects/modal" className="px-4">custom modal</Link>
             <Link href="/projects/code" className="px-4">code block</Link>
+            <Link href="/projects/dropdown" className="px-4">custom dropdown</Link>
+            <Link href="/projects/input" className="px-4">custom input</Link>
         </div>
     </div>);
 
