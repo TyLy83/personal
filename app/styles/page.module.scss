@@ -1,0 +1,9 @@
+.header {
+    @apply mt-[20px] w-full h-[80px] border-b;
+
+
+}
+
+.content {
+    @apply w-full h-[calc(100vh-100)];
+}
